@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <img src="/FriendshipZone/Friends.PNG" alt="Error loading image">
+
+    <h1>
+        <center>Friendship Zone</center>
+    </h1>
+
+    <h2>Add your details to register</h2>
+
+    <form action="backend.php">
+        <strong>Name: </strong> <input type="text" placeholder="Enter your name" name="name" minlength="3" required>
+
+        <br><br>
+
+        <strong>Email: </strong> <input type="email" name="email">
+
+        <br><br>
+
+        <strong>Age: </strong> <input type="number" name="age" minlength="18">
+
+        <br><br>
+
+        <strong>Birth Day: </strong> <input type="date" name="dob">
+
+        <br><br>
+
+        <strong>Gender: </strong> <input type="radio" name="gender">M <input type="radio" name="gender">F
+
+        <br><br>
+
+        <strong>About: </strong> <textarea name="about" cols="50" rows="5"></textarea>
+
+        <br><br>
+
+        <strong>Phone: </strong> <input type="number" name="phone">
+
+        <br><br><br>
+
+        <strong>Interested in: </strong> <input type="radio" name="interest">Friendship <input type="radio" name="interest">Dating
+
+        <strong> Attachment: </strong> <input type="file" name="attach">
+    </form>
+
+    <br><br>
+
+    <a href="/FriendshipZone/RegistrationConfirmation.html" target="_blank"><input type="submit" value="Register"></a>
+    <a href="/FriendshipZone/RegistrationConfirmationforAdmin.html" target="_blank"><input type="submit" value="Register as admin"></a>
+</body>
+
+</html>
